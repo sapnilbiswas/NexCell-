@@ -72,6 +72,7 @@ a, button, [role="button"], input, textarea, select {
   transform: scale(1.1) rotate(2deg);
   filter: drop-shadow(0 8px 20px rgba(74, 124, 255, 0.4));
 }
+}
 
 .nav-logo-text { font-size: 1.3rem; font-weight: 800; color: var(--text-primary); letter-spacing: -0.5px; }
 .nav-logo-text span { color: var(--accent-blue); }
@@ -708,6 +709,15 @@ a, button, [role="button"], input, textarea, select {
 .event-actions {
   display: flex;
   gap: 1rem;
+}
+
+.coming-soon {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
 }
 
 /* ── EVENTS ── */
